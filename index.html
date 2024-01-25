@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- запрещение увеличения на телефонах  -->
+    <!-- <meta name="viewport" content="user-scalable-0">  -->
+    <!-- отключает формирование ссылки у номера телефона на IOS -->
+    <!-- <meta name="format-detection" content="telephone=no"> -->
+    <!-- запрет индексации станицы полностью -->
+    <!-- <meta name="robots" content="none"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">Заметки</h1>
+            <input type="text" placeholder="Введите название" class="inputNote" id="title" value="ss">
+
+            <button id="create" class="createNote">
+                Добавить
+            </button>
+            <ul id="list" class="list-group">
+                <!-- <li class="list-group-item" ->
+                    <span>Название</span>
+                    <span>
+                        <span class="check-btn">&check;</span>
+                        <span class="check-btn">&times;</span>
+                    </span>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
